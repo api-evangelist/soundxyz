@@ -1,0 +1,110 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/soundxyz
+note: >-
+  Sound.xyz the music platform went offline 2026-01-16 (successor: Vault.fm), but
+  the first-party developer libraries remain published on npm under the @soundxyz
+  scope. The marquee client is @soundxyz/sdk — official on-chain development tools
+  for the Sound protocol (Solidity smart-contract framework for music collectibles).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/sdk"
+    version: 8.0.1
+    license: MIT
+    url: https://www.npmjs.com/package/@soundxyz/sdk
+    repository: https://github.com/soundxyz/sdk
+    homepage: https://docs.sound.xyz
+    install: npm install @soundxyz/sdk
+    description: Official Sound on-chain development tools for JavaScript/TypeScript.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/sdk-viem"
+    version: 0.0.3
+    license: MIT
+    url: https://www.npmjs.com/package/@soundxyz/sdk-viem
+    repository: https://github.com/soundxyz/sdk
+    install: npm install @soundxyz/sdk-viem
+    description: viem-based build of the Sound on-chain SDK.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/legacy-sdk"
+    version: 2.0.0
+    license: MIT
+    url: https://www.npmjs.com/package/@soundxyz/legacy-sdk
+    repository: https://github.com/soundxyz/sdk
+    install: npm install @soundxyz/legacy-sdk
+    description: Legacy build of the Sound on-chain SDK.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@soundxyz/sound-protocol"
+    version: 1.9.0
+    license: MIT
+    url: https://www.npmjs.com/package/@soundxyz/sound-protocol
+    repository: https://github.com/soundxyz/sound-protocol
+    install: npm install @soundxyz/sound-protocol
+    description: Permissionless, open-source smart-contract framework for digital music collectibles.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@soundxyz/protocol"
+    version: 9.1.3
+    license: GPLv3
+    url: https://www.npmjs.com/package/@soundxyz/protocol
+    repository: https://github.com/soundxyz/protocol-public
+    install: npm install @soundxyz/protocol
+    description: Public Sound protocol smart-contract package.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/react-native-apple-music"
+    version: 1.0.5
+    license: Apache-2.0
+    url: https://www.npmjs.com/package/@soundxyz/react-native-apple-music
+    repository: https://github.com/soundxyz/react-native-apple-music
+    install: npm install @soundxyz/react-native-apple-music
+    description: Apple MusicKit for React Native.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/graphql-react-query"
+    version: 5.5.2
+    url: https://www.npmjs.com/package/@soundxyz/graphql-react-query
+    install: npm install @soundxyz/graphql-react-query
+    description: GraphQL + React Query integration (first-party OSS infrastructure library).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/graphql-react-ws"
+    version: 3.0.1
+    url: https://www.npmjs.com/package/@soundxyz/graphql-react-ws
+    install: npm install @soundxyz/graphql-react-ws
+    description: GraphQL-over-WebSocket React integration (first-party OSS infrastructure library).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/redis-pubsub"
+    version: 4.1.2
+    url: https://www.npmjs.com/package/@soundxyz/redis-pubsub
+    install: npm install @soundxyz/redis-pubsub
+    description: Full type-safe Redis PubSub with Zod (first-party OSS infrastructure library).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/response-cache"
+    version: 3.0.2
+    url: https://www.npmjs.com/package/@soundxyz/response-cache
+    install: npm install @soundxyz/response-cache
+    description: GraphQL response cache, inspired by @envelop/response-cache (first-party OSS).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@soundxyz/fine-grained-cache"
+    version: 3.1.1
+    url: https://www.npmjs.com/package/@soundxyz/fine-grained-cache
+    install: npm install @soundxyz/fine-grained-cache
+    description: Fine-grained Redis cache helper (first-party OSS infrastructure library).
+    official: true

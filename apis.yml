@@ -1,7 +1,29 @@
 aid: soundxyz
 name: Sound.xyz
-description: Sound.xyz is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sound.xyz was a web3 music platform and suite of on-chain tools that let
+  artists release music as digital collectibles and host listening parties for
+  new releases, building direct economic relationships with their communities.
+  The consumer platform went offline on 2026-01-16 (with a successor project,
+  Vault.fm), but Sound.xyz's first-party developer surface remains publicly
+  published: the open-source Sound protocol (a permissionless Solidity
+  smart-contract framework for music collectibles) and the official @soundxyz
+  npm SDK ecosystem (@soundxyz/sdk, sdk-viem, legacy-sdk) for on-chain
+  development, alongside GraphQL and caching infrastructure libraries. Added to
+  the API Evangelist network as an a16z portfolio company; this profile now
+  reflects the enrichment pipeline's findings.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/87795154?s=200&v=4
 url: https://raw.githubusercontent.com/api-evangelist/soundxyz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,48 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: platform-offline
+x-status-note: >-
+  Consumer platform and hosted GraphQL API (api.sound.xyz) went offline
+  2026-01-16; docs.sound.xyz returns HTTP 402. On-chain protocol and npm SDKs
+  remain published.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Web3
+- Blockchain
+- NFT
+- Smart Contracts
+- Creator Economy
+- SDK
+- Ethereum
+- Digital Collectibles
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/soundxyz
+- type: Website
+  url: https://www.sound.xyz
+- type: Documentation
+  url: https://docs.sound.xyz
+- type: SourceCode
+  url: https://github.com/soundxyz/sound-protocol
+- type: Packages
+  url: packages/soundxyz-packages.yml
+- type: SDKs
+  url: packages/soundxyz-packages.yml
+- type: DomainSecurity
+  url: security/soundxyz-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
