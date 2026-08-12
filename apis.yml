@@ -52,6 +52,9 @@ tags:
 - Digital Collectibles
 apis: []
 common:
+- type: License
+  name: MIT
+  url: https://github.com/soundxyz/sound-protocol/blob/main/LICENSE
 - type: GitHubOrganization
   url: https://github.com/soundxyz
 - type: Website
