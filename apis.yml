@@ -36,7 +36,7 @@ x-status-note: >-
   Consumer platform and hosted GraphQL API (api.sound.xyz) went offline
   2026-01-16; docs.sound.xyz returns HTTP 402. On-chain protocol and npm SDKs
   remain published.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
