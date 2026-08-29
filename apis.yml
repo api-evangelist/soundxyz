@@ -12,6 +12,18 @@ description: >-
   development, alongside GraphQL and caching infrastructure libraries. Added to
   the API Evangelist network as an a16z portfolio company; this profile now
   reflects the enrichment pipeline's findings.
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -52,6 +64,10 @@ tags:
 - Digital Collectibles
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/soundxyz/sound-protocol/issues
+- type: Releases
+  url: https://github.com/soundxyz/sound-protocol/releases
 - type: License
   name: MIT
   url: https://github.com/soundxyz/sound-protocol/blob/main/LICENSE
