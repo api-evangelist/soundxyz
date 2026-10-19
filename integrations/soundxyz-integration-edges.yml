@@ -1,0 +1,121 @@
+edges:
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/@soundxyz/fine-grained-cache
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@soundxyz/fine-grained-cache'
+      version: 3.1.1
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/fine-grained-cache
+      repo_leg: github-org:soundxyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/legacy-sdk'
+      version: 2.0.0
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/legacy-sdk
+      repo_leg: domain:sound.xyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/protocol'
+      version: 9.1.3
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/protocol
+      repo_leg: github-org:soundxyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/react-native-apple-music'
+      version: 1.0.5
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/react-native-apple-music
+      repo_leg: github-org:soundxyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/redis-pubsub'
+      version: 4.1.2
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/redis-pubsub
+      repo_leg: github-org:soundxyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/response-cache'
+      version: 3.0.2
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/response-cache
+      repo_leg: github-org:soundxyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/sdk'
+      version: 8.0.1
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/sdk
+      repo_leg: domain:sound.xyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/sdk-viem'
+      version: 0.0.3
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/sdk-viem
+      repo_leg: domain:sound.xyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    - name: '@soundxyz/sound-protocol'
+      version: 1.9.0
+      released: '2026-05-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@soundxyz/sound-protocol
+      repo_leg: github-org:soundxyz
+      publisher_leg: email:sound.xyz
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+generated: '2026-10-18'
+method: searched
+source:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
+checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
